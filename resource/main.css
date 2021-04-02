@@ -8,6 +8,9 @@ body{
 header h1{
     text-align: center;
     color:white;
+    /* line-height: 100px; */
+    background-color: rgb(233, 204, 73);
+    padding: 20px 50px;
 }
 nav{
     position: sticky;
@@ -28,7 +31,7 @@ nav ul li a{
     text-decoration: none;
     display: block;
     color: white;
-    padding: 0 5px;
+    padding: 10px 87.7px 10px 87.7px;
 }
 nav ul li a:hover{
     background-color: antiquewhite;
@@ -38,6 +41,9 @@ article{
     margin: 15px;
     padding: 0 6px;
     background-color: #ebd5ad;
+}
+article pre code{
+    white-space: pre-wrap;
 }
 nav .nav-active{
     background-color: antiquewhite;
